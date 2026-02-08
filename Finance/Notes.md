@@ -22,3 +22,7 @@ The value of an asset is the present value of its expected **future cashflow**.
 ### 3.1.1 Zero Growth
 ### 3.1.2 Constant Growth
 ### 3.1.3 Differential Growth
+# Module 4: Cost of Capital
+# Module 5: Firm Valuation
+# Module 6: Management for Value Creation
+# Module 7: Summary
