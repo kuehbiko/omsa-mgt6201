@@ -11,8 +11,8 @@ Current Module: Distribution of created value to stockholders
 3. Explain how growth opportunities affect stock values
 4. Describe the PE (Price-Earnings) ratio
 ## 3.1 Present Value of Common Stock
-The value of an asset is the present value of its expected **future cashflows**.
-|**Future cashflows**: Refers to *future dividends* and *future capital gains*|
+The value of an asset is the present value of its expected **future cashflow**.
+|**Future cashflow**: Refers to *future dividends* and *future capital gains*|
 |---|
 
 **Ways to estimate future cashflow:**
