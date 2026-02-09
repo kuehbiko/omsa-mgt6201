@@ -24,7 +24,7 @@ The value of an asset is the present value of its expected **future cashflow**.
 * Dividend remains constant => Future cashflow remains constant
 * A dividend that pays the same present value forever is called a **perpetuity**
 
-|**Perpetuity**: Refers to an asset hat pays a stated return for an infinite time.|
+|**Perpetuity**: Refers to an asset that pays a stated return for an infinite time.|
 |---|
 
 Equation: \
