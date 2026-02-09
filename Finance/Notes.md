@@ -39,7 +39,7 @@ This is the constant dividend divided by the cost of capital.
 
 ### 3.1.2 Constant Growth
 * Dividend grows at a constant growth rate $`g`$
-* Divident grows at a constant rate = Future cashflow grows at a constant rate
+* Dividend grows at a constant rate = Future cashflow grows at a constant rate
 * A dividend that grows at a constant rate forever is called a **growing perpetuity**
 
 **Equation:** \
@@ -50,7 +50,7 @@ $`...`$ \
 $`Div_{t=n} = Div_{t=n-1}(1+g) = Div_{t=0}(1+g)^n`$ \
 \
 **This reduces to:** \
-$`P_n = \frac{Div_{t=n+1}}{R-g} `$
+$`P_n = \frac{Div_{n+1}}{R-g} `$
 
 **Note:** The numerator of this formula is $`Div_1`$ and NOT $`Div_0`$.
 **Note:** This formula calculates the CURRENT ($`t=0`$) perpetuity using the NEXT ($`t=1`$) period's dividend.
