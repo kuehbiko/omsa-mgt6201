@@ -1,37 +1,52 @@
                           # Module 1: Introduction
 
 # Module 2: Capital Investment Analysis
-Capital budgeting: Decide how much to invest for future growth.\
-A lot of analysis is involved to ensure the company is making good budgeting decisions \
-Important to make good decisions for future growth
+Capital investment analysis helps financial managers do effective **capital budgeting**.
 
-What happens in the decision making process?
-1. Identify the project
-  * Different types of investment projects. Can be:
-  * Required investments (investments that improve things you’re required to provide/to comply with rules and regulations. Eg. delta airlines will invest in safety equipment = less liability/more efficient to make flights safer)
-  * Replacement investments eg. have to replace old aircrafts, provide engineering services to other airlines?
-  * Expansion investment (building bigger hangars?)
-  * Diversification investment (should they invest in something that is not part of their main business) - rare to do this
-  * Ideas for these projects come from: market research, find out what competitors are doing
-2. Evaluate each project’s benefits and costs
-  * Benefits: expected cash flow, how much cash will they gain from this
-  * Discount rate = cost of capital
-3. Selecting the project (what is the selection criteria for you to accept the project)
-  * Metrics/rules used to select a project:
-  * Net present value
-  * Profitability index
-  * Internal rate of return
-  * Payback period
-4. Implementation (what process are you going to follow for this project):
-  * Monitor cash flows (is this cash flow what we are expecting)
-  * Check that projects still meet the selection criteria
-  * Do you still want to continue with the project or do you want to stop?
+|**Capital Budgeting:** Refers to the decision of choosing how much to invest for future growth.|
+|---|
 
-**Example: statement of cash flows from home depot**
+A lot of analysis is involved to ensure a firm makes good budgeting decisions. Its important for firms to make good decisions that will lead to future growth.
+
+## 2.1 Capital Investment Decision Making Process
+
+#### Step 1: Identify the projec
+There are different types of investment projects:
+1. **Required Investments**: investments that improve things a firm is required to provide/to comply with rules and regulations. (Eg. delta airlines will invest in safety equipment = less liability/more efficient to make flights safer)
+2. **Replacement Investments** eg. have to replace old aircrafts, provide engineering services to other airlines?
+3. **Expansion Investments** (building bigger hangars?)
+4. **Diversification Investments:** (should they invest in something that is not part of their main business) - rare to do this
+Project ideas can come from market research, finding out what competitors are doing, etc.
+
+#### Step 2: Evaluate Each Project’s Benefits and Costs
+**Benefits:** Means expected cash flow.
+  * What is the expected cash flow of the project?
+  * Total cash flow?
+  * Yearly cash flow?
+**Costs:** Means the cost of capital
+
+#### Step 3: Determine the Selection Criteria for the Project
+Determine the criteria used to select a project.
+* When will a project be rejected?
+* When will it be accepted?
+
+Common selection criteria in the real world:
+1. Net Present Value (NPV)
+2. Profitability Index
+3. Internal Rate of Return (IRR)
+4. Payback period
+
+#### Step 4: Implementation 
+What to do when deciding on the implementation of the project:
+* Monitor Cash Flows (is this cash flow what we are expecting?)
+* Check that projects still meet the selection criteria
+* Decide if you still want to continue with the project or do you want to stop?
+
+
 |**Capex**: CAPital EXpenditure is cash flow from investing activities|
 |---|
 
-## Time Value of Money
+## 2.2 Time Value of Money
 * Before we start on understanding capital investment analysis, have to understand: Time Value of Money
 * Same amount of money in the future is worth less than what you are receiving today.
 * Opportunity cost of capital: rate of return sacrificed on the next best alternative
@@ -39,7 +54,7 @@ What happens in the decision making process?
 * Opportunity cost of picking the 1500 in 5 years time is the amount of money you DON’T get from the 10% investment
 
 
-### FUTURE VALUE:
+### 2.2.1 FUTURE VALUE:
 How to compute future value? \
 Money grows over time at rate r:
 
@@ -51,7 +66,7 @@ T = time (in years) \
 
 Excel formula: FV()
 
-### PRESENT VALUE:
+### 2.2.2 PRESENT VALUE:
 More common method of evaluating your investment alternatives is to calculate the present value \
 How much money would you need today in order to duplicate a future amount
 
@@ -68,7 +83,7 @@ Continue to pick the higher PV - this will result in an even higher FV
 
 Excel formula: PV()
 
-### Applications of Present Value and Future Value in capital investment
+### 2.2.3 Applications of Present Value and Future Value in capital investment
 
 Basically just filling in the known variables and calculating for the unknown variables
 
@@ -79,9 +94,9 @@ PMT (Payment): referring to what is the annual payment (eg. of a total lottery w
 Also an excel function called PMT()
 
 
-## Investment Selection Criteria
+## 2.3 Investment Selection Criteria
 
-###Decision Rule #1: Net Present Value (NPV):
+### 2.3.1 Decision Rule #1: Net Present Value (NPV):
 Forecasting the benefits and costs of the project for period T
 
 What is T? \
@@ -102,7 +117,7 @@ NPV is the most important value for shareholder value creation!!\
 NPV will actualize as real cash 
 
 
-**NPV Calculation Example:**\
+#### NPV Calculation Example:
 So you can calculate NPV for each of these projects
 For example project A: \
 C0 = -100 \
@@ -123,7 +138,7 @@ If projects are **mutually exclusive**: choose the one with the **highest NPV**
 
 
 
-### Decision rule #2: Payback Period
+### 2.3.2 Decision rule #2: Payback Period
 How quickly can you recover the original investment made on the project?
 
 The firm would already have decided what the payback cutoff period is. \
@@ -138,7 +153,7 @@ Cashflows are completely ignored beyond the cut off period
 
 Does not take into account time value of money
 
-### Decision Rule #3: Internal rate of return
+### 2.3.3 Decision Rule #3: Internal rate of return
 Looking at the discount rate (value of r) that makes the NPV of the project = 0
 
 NPV approaches 0 as r increases \
@@ -163,12 +178,12 @@ If crossover rate<r<infy, choose blue line (higher NPV for that section)
 
 IRR can fail if the cost of capital is less than the crossover rate (sometimes cash flow can become negative the further right you go on the x-axis)
 
-**Calculating crossover rate:** \
+#### Calculating crossover rate:
 Can create a dummy project called project A-B => A cashflow - B cashflow for every time period => at some point you will get a time period where A-B = 0 (this is the crossover rate)
 
 **TLDR IRR has a lot of problems**
 
-### Decision rule #4: profitability index (benefit/cost ratio)
+### 2.3.4 Decision rule #4: Profitability Index (benefit/cost ratio)
 => for every $ of investment how much are u getting
 
 PI = (C0 + NPV) / C0
@@ -177,23 +192,23 @@ PI = (C0 + NPV) / C0
 **Or:** for mutually exclusive projects: use highest PI
 
 
-### IRR vs NPV
+### 2.3.5 IRR vs NPV
 How to compute cash flows
 
 For independent projects: NPV and IRR will usually give the same results
 
-**WHEN will IRR fail:**
+#### WHEN will IRR fail:
 * Non conventional cash flows (negative to positive or positive to negative, change in sign more than once)
 * Mutually exclusive projects
 * Projects where scale and timings differ
 
-## Summary slide:
+## 2.4 Capital Investment Analysis Summary
 Apparently most real world companies prefer IRR and NPV
 
 Some companies might use a higher cost of capital to select projects rather than the actual rate of return (eg. home depot’s actual r% might be 8% but they’ll say use 12% so u weed out the projects that barely breakeven)
 
 
-## How to calculate cashflows for a capital investment project
+## 2.5 Example to calculate cashflows for a capital investment project
 
 Focus on how to estimate cash flows
 
@@ -405,19 +420,10 @@ Correct handling of inflation - either apply inflation for both cashflow/discoun
 Uncertainty in forecasts can be addressed by conducting sensitivity analysis or simulations
 
 
-List of all Excel Functions covered in Week 1:
-FV()
-PV()
-RATE() - so the irritating thing about google sheets or this formula is that they automatically round to whole number instead of showing you the full thing for whatever reason (see: W1 self asseasment Q13)
-NPER()
-PMT()
 
 
-Covered selection criteria for investment projects:
-NPV
-Payback Period
-IRR
-Profitability Index
+
+
 
 
 Math formulas covered in Week 1:
@@ -454,6 +460,7 @@ The value of an asset is the present value of its expected **future cashflow**.
 1. Zero Growth
 2. Constant Growth
 3. Differential Growth
+
 ### 3.1.1 Zero Growth
 * Dividend does not grow over time => Dividend remains constant
 * Dividend remains constant => Future cashflow remains constant
@@ -636,3 +643,14 @@ Market Value of Equity is also = Stock Price * Number of outstanding shares => S
 # Module 5: Firm Valuation
 # Module 6: Management for Value Creation
 # Module 7: Summary
+# Glossary of Terms
+|Term|Also Known As|Related Formula|
+|---|---|---|
+|After Tax Cash Flow|Cash Flow|
+|Cost of Capital|Discount Rate, Opportunity Cost of Capital|
+|EBITDA|
+|Enterprise Value|
+|Enterprise Value Ratio|
+|Equity Value|Market Value of Equity|
+|Firm Value|Stock Price
+|Price-Earnings Ratio|
