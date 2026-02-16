@@ -640,7 +640,153 @@ Market Value of Equity is also = Stock Price * Number of outstanding shares => S
 #### Problem 2: Storico Co.
 
 # Module 4: Cost of Capital
+## 4.0 Learning Objectives
+* Describe how risk is measured for financial instruments
+* Use the Capital Asset Pricing Model to explain the relation between risk and expected return
+* Estimate Weighted Average Cost of Capital, aka minimum rate of return that corporations need to break even on an investment
+
+## 4.1 Weighted Average Cost of Capital
+| **Cost of Capital**: Refers to the rate of return that the corporation must earn on its invested capital in order to compensate for the time value of money and risk|
+|---|
+
+**Weighted Averate Cost of Capital Equation:**\
+$`WACC = Cost of Debt \times (1-Tax Rate) \times \frac{Debt}{Debt + Equity} + Cost of Equity \times \frac{Equity}{Debt + Equity}`$
+
+* Interest paid on debt is tax deductible
+* Interest paid on equity is NOT
+* Encourages firms to rely more on debt
+
+Two segments for WACC equation:\
+**Debt**: $`Cost of Debt \times (1-Tax Rate) \times \frac{Debt}{Debt + Equity}`$\
+**Equity:** $`Cost of Equity \times \frac{Equity}{Debt + Equity}`$
+
+### 4.1.1 Debt and Cost of Debt
+Factors influencing how much debt to take:
+* Taxes - Taking more debt allows firms ot pay less taxes. If the firm is able to pay their taxes they won't need to take as much debt
+* Stability of Cashflows/Earnings - Creditors are more willing to lend to firms with stable cashflows
+* Financial Flexibility - Debt restricts the financial capability of the firm. Firms that want to be flexible will take less debt
+* Type of Assets - Creditors are more willing to lend if the firm has more fixed/long-term assets 
+
+Companies in mature industries can support higher debt levels.\
+Companies in growth industries support lower debt levels.
+
+#### Cost of Debt
+|**Cost of Debt**: Refers to the interest rate that the firm pays on debt.|
+|---|
+
+**Cost of Debt = US Treasury Bond Rate + Default Premium/Risk**
+* US Treasurey Bond Rate: Constant value. Has 0 risk.
+* Default Premium/Risk: Additional risk that has to be tagged on to each company (no company is 0 risk, only US Treasury)
+
+#### Defining Default Risk
+* Use Bond Ratings: Higher quality = lower risk
+* Each bond rating has an associated default risk
+
+#### Example Calculation
+US Treasury Rate: 2.7% \
+Default Premium for Home Depot (according to AA bond rating): 1.11% \
+Cost of Debt = Treasury Bond Rate + Default Risk = 2.7% + 1.11% = 3.81%
+
+### 4.1.2 Equity and Cost of Equity
+|**Cost of Equity:** Refers to the rate of return expected by stock/equity holders|
+|---|
+
+**Cost of Equity = US Treasury Bond Rate + Risk of Equity**
+
+#### Defining Risk of Equity
+Using example of an oil company project:
+```
+project - development of oil field
+|   - cost: -$1000
+|   
+└─── strike oil (50%)
+│   └─── economy in expansion (25%)
+|        - earn $4000
+│   └─── economy in recession (25%)
+|        - earn $2000
+│   
+└─── don't strike oil (50%)
+│   └─── economy in expansion (25%)
+|        - earn $0
+│   └─── economy in expansion (25%)
+        - earn $0
+```
+Expected Cash Flow from this project: 25%($4000) + 25%($2000) + 25%($0) + 25%($0) = $1500 \
+Expected Return: $1500/$1000 = 50% \
+Standard Deviation (no math provided): 165.8%
+
+**Standard Deviation: Indicates risk of equity**
+
+If there is 1 company: std dev = 165.8% \
+If there are 10 companies: std dev = 70.7% \
+If there are 100 companies: std dev = 52.4% \
+If there are 1000 companeies: std dev = 50.2% \
+**As n approaches infinity, std dev (risk) approaches 50%** \
+Investing in many companies is known as **diversification**.
+
+#### 2 Types of Risk
+1. Firm Specific Risk
+    - Firm loses a major lawsuit
+    - Firm loses a CEO
+2. Macroeconomic/Market Risk
+    - Changes in fiscal policy
+    - Unexpected change in interest rate
+
+
+Diversifying portfolio can bring Firm Specific Risk close to 0%. 
+You will NEVER be able to eliminate Market Risk.
+  => This is the remaining 50% risk.
+
+#### Measuring Market Risk with Beta
+* Beta of US Treasury Stock: 0
+* Beta of a stock LESS sensitive to market risk: 0 < b < 1
+* Beta of average stock: 1
+* Beta of a stock MORE sensitive to market risk: 1 < b < $`\infty`$
+
+What does this mean? \
+If an average portfolio (b=1) goes up by 10%:
+* A LESS sensitive stock (b=0.5) will go up by 5%
+* A MORE sensitive stock (b=2) will go up by 20%
+
+Risk is linearly related to beta.
+
+(Tip: you can find the betas of companies/industries on Yahoo Finance)
+
+#### Recall
+**Cost of Equity = US Treasury Bond Rate + Risk of Equity** \
+**Cost of Equity = US Treasury Bond Rate + (Market Risk Premium)(Market Risk)** \
+**Cost of Equity = US Treasury Bond Rate + (Market Risk Premium)(Beta)**
+
+* US Treasury Bond Rate: return rate on US Treasury stocks (given)
+* Beta: measure of stock's market risk (given)
+* Market Risk Premium: average difference in the rate of return on US Treasury *stocks* vs US Treasury *bonds*
+    * Risk of Large Company Stocks (11.53%)(given) - Risk of Treasury Bonds (5.15%)(give) = 6.38%
+    * CONSTANT FOR ALL FIRMS
+
+#### Example Calculation
+Cost of Equity = Treasury Rate + (Market Risk Premium)(Beta) \
+Cost of Equity = 2.7% + (6.38%)(Company's Beta)
+
+
 # Module 5: Firm Valuation
+## 5.0 Learning Objectives
+* Estimate value of firm using present value of projected free cash flows discounted at the weighted cost of capital (DCF Approach - Discounted Cash Flow Approach)
+* Estimate value of firm using comparables method (comparing with firms of similar industries)
+
+### 5.0.1 Importance of Firm Valuation
+* Most important value
+* Underlying value for a wide variety of financial activities (eg. buy or sell businesses)
+* Security analysts find undervalued stocks to recommend to clients to buy
+* Used to price IPO (initial public offering)
+* Used to determine how much a business unit is worth
+* Used by venture capitalists to determine new investment opportunities
+
+## 5.1 DCF Method
+
+
+## 5.2 Comparables Method
+
+
 # Module 6: Management for Value Creation
 # Module 7: Summary
 # Glossary of Terms
@@ -648,9 +794,14 @@ Market Value of Equity is also = Stock Price * Number of outstanding shares => S
 |---|---|---|
 |After Tax Cash Flow|Cash Flow|
 |Cost of Capital|Discount Rate, Opportunity Cost of Capital|
-|EBITDA|
+|Cost of Debt||US Treasury Rate + Default Premium|
+|Cost of Equity||US Treasury Rate + (Market Risk Premium)(Beta)|
+|EBITDA|Expenses Before Interest, Taxes, Debts, Adjustments||
 |Enterprise Value|
 |Enterprise Value Ratio|
-|Equity Value|Market Value of Equity|
-|Firm Value|Stock Price
+|Equity Value|Market Value of Equity, Market Cap, Market Capital|
+|Firm Value|Stock Price|Equity Value + Debt Value|
+|Market Risk Premium||6.38%|
 |Price-Earnings Ratio|
+|Weighted Average Cost of Capital|WACC|$`WACC = Cost of Debt \times (1-Tax Rate) \times \frac{Debt}{Debt + Equity} + Cost of Equity \times \frac{Equity}{Debt + Equity}`$|
+
