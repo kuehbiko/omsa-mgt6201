@@ -223,7 +223,8 @@ Basically the opposite of centralized network
 * Decentralized network: Responsive supply chain, speed focused operating model
 
 ## 1.7 Outsourcing
-## 1.8 Conference Call                      
+## 1.8 Offshoring
+## 1.9 Conference Call
 
 # Week 2: Medium-Term Decisions
 ## 2.1 Lean Operations
