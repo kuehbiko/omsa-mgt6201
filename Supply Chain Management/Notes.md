@@ -113,17 +113,15 @@ What might lead a company to be more cost focused, or more speed focused?
 ### 1.5.4 How strategic (long term) decisions drive tactical (medium term) and operational (short term) decisions
 
 #### Example of a retail company
-Strategic decision:
-* Efficient and low cost supply chain
-
-Tactically, this means:
-* Low operating costs
-* High asset utilization/ROA
-
-Operationally, this means:
-* VMI - vendor managed inventory
-* DSD - direct store delivery (bypassing warehouses)
-* Full truckloads - delivering full truckloads instead of half a truck, make the most use out of transport
+*Strategic* decision...
+  * Efficient and low cost supply chain \
+*Tactically*, this means...
+  * Low operating costs
+  * High asset utilization/ROA \
+*Operationally*, this means...
+  * VMI - vendor managed inventory
+  * DSD - direct store delivery (bypassing warehouses)
+  * Full truckloads - delivering full truckloads instead of half a truck, make the most use out of transport
 
 ### 1.5.5 Summary
 * Ultimate goal is to match supply of a product with the demand of that product
@@ -142,7 +140,7 @@ These components can be global!
 
 How to configure the supply chain to meet different markets? Where to have warehouses and facilities?
 
-#### Types of network configurations
+### 1.6.1 Types of network configurations
 1. Centralized networks
 2. Decentralized networks
 
@@ -179,7 +177,8 @@ Most to Least centralized:
 3. Solution #4
 4. Solution #3
 
-#### Advantages and Disadvantages of Centralized Network
+### 1.6.2 Advantages and Disadvantages 
+#### ...Of A Centralized Network
 #### Advantages
 * Less inventory - you have less warehouses (eg. 1 warehouse in 1 region vs 3 warehouses in 3 regions)
 * Higher pooling effect = Less need to cater to different demand from different regions = Less need for safety stock
@@ -192,7 +191,7 @@ Most to Least centralized:
 * Higher transportation cost and timing (further distance to transport to other regions)
 * Decreased responsiveness
 
-#### Advantages and Disadvantages of Decentralized Network
+#### ...Of A Decentralized Network
 Basically the opposite of centralized network
 #### Advantages
 * Lower transportation cost and timing (less distance to transport)
@@ -206,7 +205,7 @@ Basically the opposite of centralized network
 * Harder to standardize practices
 * Less economics of scale
 
-#### When to choose each network?
+### 1.6.3 When to choose a centralized or decentralized netowrk?
 ||Centralized Strategy|Decentralized Strategy|
 |---|---|---|
 |Demand Environment|Stable/predictable|Uncertain\Unpredictable|
@@ -219,7 +218,7 @@ Basically the opposite of centralized network
 |Delivery customization|Less|More|
 |Supply Chain|Efficient supply chain|Responsive supply chain|
 
-### 1.6 Summary
+### 1.6.4 Summary
 * Centralized network: Efficient supply chain, cost focused operating model
 * Decentralized network: Responsive supply chain, speed focused operating model
 
