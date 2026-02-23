@@ -112,16 +112,16 @@ What might lead a company to be more cost focused, or more speed focused?
 
 ### 1.5.4 How strategic (long term) decisions drive tactical (medium term) and operational (short term) decisions
 
-#### Example of a retail company
-*Strategic* decision...
-  * Efficient and low cost supply chain \
-*Tactically*, this means...
-  * Low operating costs
-  * High asset utilization/ROA \
-*Operationally*, this means...
-  * VMI - vendor managed inventory
-  * DSD - direct store delivery (bypassing warehouses)
-  * Full truckloads - delivering full truckloads instead of half a truck, make the most use out of transport
+#### Example of a retail company:
+#### *Strategic* decision...
+   * Efficient and low cost supply chain
+#### *Tactically*, this means...
+   * Low operating costs
+   * High asset utilization/ROA 
+#### *Operationally*, this means...
+   * VMI - vendor managed inventory
+   * DSD - direct store delivery (bypassing warehouses)
+   * Full truckloads - delivering full truckloads instead of half a truck, make the most use out of transport
 
 ### 1.5.5 Summary
 * Ultimate goal is to match supply of a product with the demand of that product
