@@ -29,14 +29,14 @@ Operations and supply chain managers focus on how to **develop capabilities to d
 ## 1.2 Whys is OSCM So Important
 ## 1.3 Supply Chain Challenges
 ### 1.3.1 Top Supply Chain Challenges
-Top 5 challenges (according to Forbes Survey - 2015)
+#### Top 5 challenges (according to Forbes Survey - 2015)
 1. Flexibility and responsiveness in changes in the demand of product mixes they offer
 2. Supplier performance in terms of risk, reliability, quality
 3. Ensuring that the supplier has sufficient capacity
 4. Effectively supporting new product launches. No data to predict what the demand will be like for a new product
 5. Lack of competitive cost structure. Cost is too high to support full supply chain
 
-Top 5 challenges (according to MIH Industry Report - 2019)
+#### Top 5 challenges (according to MIH Industry Report - 2019)
 1. Hiring qualified workers
 2. Being able to respond to customers demand for lower cost
 3. Customer demand for faster response times
