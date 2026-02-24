@@ -118,7 +118,7 @@ Functional products and innovative products need different supply chains.
 
 These components can exist within 1 region, or across multiple regions.
 
-How do we configure the supply chain to meet different regional markets? For example, where should we place out warehouses and facilities?
+How do we configure the supply chain to meet different regional markets? For example, where should we place our warehouses and facilities?
 
 ### 1.6.1 Types of Network Configurations
 #### Two Types of Network Configurations
