@@ -8,8 +8,8 @@
 
 ## 1.1 What is Operations and Supply Chain Management
 
-Historically: Companies simply took in inputs and produced outputs \
-Now: Companies will look at where other companies are getting their inputs from (upstream) and where their outputs are going (downstream).
+**Historically:** Companies simply took in inputs and produced outputs \
+**Now:** Companies will look at where other companies are getting their inputs from (upstream) and where their outputs are going (downstream).
 
 ### 1.1.1 Operations and Supply Chain Management
 
